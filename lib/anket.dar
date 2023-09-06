@@ -1,0 +1,16 @@
+class Ogrenciler {
+  String öğrencino;
+  String kullaniciAdi;
+  String musteriIstekleri;
+  String benimYaptigimIsler;
+  String baslangicTarihi;
+  String bitisTarihi;
+
+  Musteriler(
+      {this.id = "Boş",
+      this.kullaniciAdi = "",
+      this.benimYaptigimIsler = "",
+      this.musteriIstekleri = "",
+      this.baslangicTarihi = "Boş",
+      this.bitisTarihi = "Boş"});
+}
